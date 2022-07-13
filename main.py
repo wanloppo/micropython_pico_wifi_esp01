@@ -1,5 +1,4 @@
 import uos
-import machine
 from machine import UART, Pin,ADC
 import utime
 import time
