@@ -77,7 +77,6 @@ Send_AT_Cmd('AT+CIPSERVER=1,80\r\n')    #Obtain the Local IP Address
 time.sleep_ms(100)
 print ('Starting connection to ESP8266...')
 while True:
-    msg = '<center><h2>shop.villamarket.com</h2></center>'
     led.value(1)
     time.sleep_ms(100)
     led.value(0)
